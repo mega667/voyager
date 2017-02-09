@@ -200,7 +200,7 @@ You may remove `Intervention\Image\ImageServiceProviderLaravel5` from your `prov
 
 #### In application changes
 
-Models using the `VoyagerUser` trait does no longer have the `roles` relation. Instead we are using a single role now. So please update you application for usages of that relation.
+Models using the `VoyagerUser` trait does no longer have the `roles` relation. Instead we are using a single role now. So please update your application for usages of that relation.
 Also the method `addRole` and `deleteRole` has been removed and replaced with a `setRole` method.
 
 ## Configuration
